@@ -1,0 +1,153 @@
+*{
+box-sizing: border-box;
+}
+.wrapper{
+background-color: #FDFBF5;
+width: 960px;
+margin: auto;
+}
+.site-info h1{
+color: #B97857;
+text-align: center;
+font-size: 2rem;
+margin: 15px;
+font-weight: bold;
+}
+.site-info p{
+text-align: center;
+color:#B97857 ;
+margin: 15px;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:  #8CB9BD;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+
+.active {
+background-color: #04AA6D;
+}
+.main{
+display: flex;
+}
+.sidebar {
+background-color: #ECB15A;
+width: 30%;
+padding: 20px;
+display: flex;
+flex-direction: column;
+}
+
+.sidebar h2{
+font-size: 25px;
+font-weight: bold;
+color: white;
+}
+.sidebar h3 {
+font-size: 1rem;
+color: white;
+margin-bottom: 15px;
+font-weight: bold;
+}
+
+.sidebar img {
+width: 100%;
+margin: 10px auto;
+display: block;
+border-radius: 5px;
+}
+
+.sidebar p {
+color: white;
+font-size: 14px;
+margin-bottom: 20px;
+}
+.main-content {
+width: 70%;
+padding: 20px;
+}
+
+.main-content h2 {
+font-size: 26px;
+color: #B97857;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.main-content h5{
+font-family: 'Pacifico', cursive;
+color: #8cb9bd;
+margin: 10px auto;
+}
+
+.main-content img {
+max-width: 100%;
+height: auto;
+margin-bottom: 10px;
+width: 200px;
+}
+
+.main-content p {
+margin-bottom: 10px;
+color: #333;
+}
+footer {
+text-align: center;
+color: #b67352;
+padding: 5px;
+border-top: 2px solid #ECB15A;
+margin-top: 10px;
+font-style: italic;
+}   
+.sidebar2{
+width:10%;
+margin:10px;
+margin-right:10px ;
+}
+.bai1 .article-img {
+width: 35%;
+height: auto;
+float:left;
+margin-right: 15px;
+}
+
+.bai2 .article-img {
+width: 35%;
+height: auto;
+float:left;
+margin-right: 15px;
+}
+header nav .menu-child{
+display: none;
+position: absolute;
+background-color: gray;
+
+}
+header nav ul li:hover .menu-child{
+display: block;
+}
+header nav a:hover{
+background-color: #ECB15A;
+}
+header nav ul li:hover .menu-child a:hover{
+background-color: #bd9b8c;
+display: flex;
+flex-direction: column;
+}
